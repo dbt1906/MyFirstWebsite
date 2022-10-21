@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Học Bootstrap</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+		<style type="text/css">
+			img{
+				filter: drop-shadow(5px 5px 10px grey);
+			}
+			h1{
+				margin-bottom: 5%;
+			}
+			.navbar{
+				letter-spacing: 5px;
+			}
+			ul li{
+				padding: 15px;
+				
+			}
+			a{
+				text-decoration: none;
+				font-size: 20px;
+				color: grey
+			}
+			.margin{
+				margin-bottom: 30px;
+			}
+			.my-pic{
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				border-radius: 50%;
+			}
+			.container-fluid{
+				padding-top: 50px;
+				padding-bottom: 50px;
+				color: #ffffff;
+			}
+			#where{
+				color: #555555;
+			}
+		.my-btn{
+			background-color: white;
+			padding: 10px 20px 10px 20px;
+			border-radius: 15px;
+			color: black;
+		}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar"id="nav">
+			<div class="container">
+				<a href="#me" style="font-size:25px">Me</a>
+				<ul class="nav navbar">
+					<li>
+						<a href="#who">WHO</a>
+					</li>
+					<li>
+						<a href="#what">WHAT</a>
+					</li>
+					<li>
+						<a href="#where">WHERE</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container-fluid bg-primary text-center">
+			<h3 class="margin">WHO I AM?
+			</h3>
+			<img src="Images/avatar.jpg" class="rounded-circle margin" width="350px" height="350px">
+			<h3 style="padding-bottom:45px">I'm Du Ban Teo</h3>
+			
+		</div>
+		<div class="container-fluid bg-secondary text-center margin" id="what">
+			<h3 style="padding-top:45px">WHAT AM I?</h3>
+			<p>In aliquip aliquip eu ea sed in cillum in aliquip eu laborum ex mollit. Lorem ipsum cupidatat consequat sunt tempor sit tempor quis laborum est. Esse ut amet cupidatat incididunt commodo sit ullamco duis elit sint fugiat. Ea dolor esse velit adipisicing aliqua duis in veniam aliqua in dolore qui ut.</p>
+	
+			<a href="#" class="my-btn">
+						<i class="fa-solid fa-magnifying-glass"></i>
+				<span>Seach</span>
+			</a>
+			
+		</div>
+		<div class="container-fluid" id="where">
+			<h1 class="text-center">Where to find me?</h1>
+			<div class="row">
+				<div class="col-4">
+					<p class="text-center">Non incididunt commodo incididunt eiusmod proident non non tempor anim quis veniam consequat id dolor sed non ut cupidatat.</p>
+					<img src="Images/hinh1.jpg" width="100%">
+				</div>
+				<div class="col-4">
+					<p class="text-center">Non incididunt commodo incididunt eiusmod proident non non tempor anim quis veniam consequat id dolor sed non ut cupidatat.</p>
+					<img src="Images/hinh2.jpg" width="100%">
+				</div>
+				<div class="col-4">
+					<p class="text-center">Non incididunt commodo incididunt eiusmod proident non non tempor anim quis veniam consequat id dolor sed non ut cupidatat.</p>
+					<img src="Images/hinh3.jpg" width="100%">
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-secondary text-center" id="footer">
+			<p style="font-size:20px">Made by Du Ban Teo</p>
+		</div>
+	</body>
+</html>
